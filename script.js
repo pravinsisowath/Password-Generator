@@ -9,10 +9,10 @@ function generatePassword () {
     alert('Length must be between 8 and 128')
     return
   }
-  const lowerChar = 'abc'
-  const upperChar = 'ABC'
-  const numberChar = '123'
-  const specialChar = '!@^'
+  const lowerChar = 'abcdefghijklmnopqrstuvwxyz'
+  const upperChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  const numberChar = '123456789'
+  const specialChar = '!@#$%^&*()'
   const lowC = confirm('Lower case?')
   const upC = confirm('Upper case?')
   const numC = confirm('Number case?')
